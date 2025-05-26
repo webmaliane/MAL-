@@ -1,0 +1,93 @@
+
+ .mali {
+    margin-top: 20px;
+ }
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase; /*para poner mayusculas*/
+}
+a {
+    text-decoration: none; /* Retirar sublinhado nos links*/
+}
+
+body a:hover {
+    color: blue;
+}
+
+
+nav{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    text-align: center;
+}
+.menu a{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+
+.acciones {
+    text-align: right;
+}
+
+.acciones button {
+    margin-top: 70px;
+}
+
+.suscribirse {
+    margin-right: 20px;
+    background-color: black;
+    border: none;
+}
+.sesion {
+    margin-right: 20px;
+    background-color: grey;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.destaque {
+   position: relative;
+}
+
+.destaque .texto {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+ }
+
+ .logo {
+    margin-left: 80px;
+ }
+
+ .looks {
+    margin-bottom: 30px;
+ }
+
+  hr {
+    border: none; 
+    height: 5px; 
+    background-color: black; 
+    width: 100px
+ }
+
+ .voguepag {
+  text-align: center;
+ }
+
+footer {
+    margin-top: 200px;
+}
+ 
