@@ -6,13 +6,15 @@
 h1, h2 {
     text-align: center;
     text-transform: uppercase; /*para poner mayusculas*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a {
     text-decoration: none; /* Retirar sublinhado nos links*/
+    color: black;
 }
 
 body a:hover {
-    color: blue;
+    color: grey;
 }
 
 
@@ -55,6 +57,7 @@ h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -76,11 +79,11 @@ h2 {
     margin-bottom: 30px;
  }
 
-  hr {
+hr {
     border: none; 
     height: 5px; 
     background-color: black; 
-    width: 100px
+    width: 100%
  }
 
  .voguepag {
@@ -88,6 +91,44 @@ h2 {
  }
 
 footer {
-    margin-top: 200px;
+    margin-top: 100px;
 }
  
+.fa-lg {
+    line-height: normal;
+}
+.fab {
+    min-width: 8% !important;
+    text-align: center;
+}
+
+.revistas p {
+    min-height: 50px;
+}
+
+h4 {
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .revistas {
+        text-align: center;
+    }
+
+    .revistas p {
+        min-height: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu a {
+        padding-left: 14px;
+        padding-right: 14px;
+    }    
+}
